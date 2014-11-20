@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]" parallel="none">
+  <test name="test1(failed)" parallel="none">
+    <classes>
+      <class name="DevOlympus.PsearchLogin">
+        <methods>
+          <include name="launch"/>
+          <include name="ProfileSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DevOlympus.PsearchLogin -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->
